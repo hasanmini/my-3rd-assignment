@@ -15,6 +15,15 @@
         .text-shadow{
             text-shadow: 1.5px 2px rgb(203, 137, 113);
         }
+        #contact-opacity{
+            background: rgb(237, 187, 9, .1);
+        }
+        #mail-opacity{
+            background: rgba(9, 32, 237, 0.1);
+        }
+        #location-opacity{
+            background: rgba(9, 237, 24, 0.1);
+        }
     </style>
 </head>
 <body class="bg-slate-50 text-black font p-3">
@@ -25,7 +34,7 @@
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-slate-200 rounded-box w-52">
                         <li class="text-red-400"><a>Home</a></li>
                         <li><a>About</a></li>
                         <li><a>Pages</a></li>
@@ -254,10 +263,182 @@
             </div>
         </section>
         <!-- section 4 ends here -->
+        <hr class="border-[2px] border-dashed my-10">
         <!-- section 5 starts here -->
-    </main>
-    <footer>
 
-    </footer>
+        <section>
+            <div class="text-center">
+                <h1 class="text-3xl font-bold my-5">Clients Question</h1>
+                <p class="text-[13px] text-blue-950">Contact us for any question related hockey, we will trying to answer.</p>
+            </div>
+            <hr class="border-[2px] border-dashed my-10">
+            <div class=" lg:flex mx-auto gap-5 border p-3 rounded-lg">
+                <img class="w-full lg:w-[40%]" src="11.png" alt="">
+                <div class="w-full">
+                    <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" checked="checked" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            Hockey Training
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>We have training ground for practice.</p>
+                        </div>
+                    </div>
+                    <hr class="my-1">
+                    <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            Booking
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Contact us for booking.</p>
+                        </div>
+                    </div>
+                    <hr class="my-1">
+                    <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                          Pricing
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>We have a sale going on, contact us soon</p>
+                        </div>
+                    </div>
+                    <hr class="my-1">
+                    <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            Why purchase us
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>We have the best hockey's eccessories.</p>
+                        </div>
+                    </div>
+                    <hr class="my-1">
+                    <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                          Equipment
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>We using world class equipment.</p>
+                        </div>
+                    </div>
+                    <hr class="my-1">
+                    <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                          Private lessons
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Focus on your skills.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- section 5 ends here -->
+        <hr class="border-[2px] border-dashed my-10">
+        <!-- section 6 starts here -->
+        <section>
+            <div class="text-center">
+                <h1 class="text-3xl font-bold my-5">Get In Touch</h1>
+                <p class="text-[13px] text-blue-950">Drop your info register and stay with us.</p>
+            </div>
+            <hr class="border-[2px] border-dashed my-10">
+            <div class="lg:flex gap-5">
+                <div class="lg:w-[40%] border rounded-lg p-5">
+                    <div id="contact-opacity" class="p-10">
+                        <img src="Group 1171275317.png" alt="">
+                        Phone Number: <br>(+62) 123-321-543
+                    </div>
+                    <div id="mail-opacity" class="my-5 p-10">
+                        <img src="Group 1171275318.png" alt="">
+                        Email: <br>hockeys@support.com
+                    </div>
+                    <div id="location-opacity" class="p-10">
+                        <img src="Group 1171275321.png" alt="">
+                        Location: <br>152/1 Mohakhali Wireless Gate
+                    </div>
+                </div>
+                <div class="lg:w-[55%]">
+                    <div class="lg:grid grid-cols-2 gap-5">
+                        <div class="">
+                            <div>your name <br> <input class="bg-slate-100 p-3 w-[100%]" type="text" placeholder="Enter your full name"></div>
+                        </div>
+                        <div>
+                            <div>Your email <br> <input class="bg-slate-100 p-3 w-[100%]" type="email" placeholder="Enter your email"></div>
+                        </div>
+                        <div>
+                            <div>Subject <br> <input class="bg-slate-100 p-3 w-[100%]" type="text" placeholder="Enter your subject"></div>
+                        </div>
+                        <div>
+                            <div>Your number <br> <input class="bg-slate-100 p-3 w-[100%]" type="text" placeholder="Enter your phone number"></div>
+                        </div>
+                    </div>
+                    <div class=" mt-10">
+                        <div>Message <br> <input class="bg-slate-100 p-3 w-full size-80" type="text" placeholder="Write your message"></div>
+                        <div class="w-full bg-red-400 mt-5 p-2 text-center rounded-md hover:cursor-pointer"><a href="#">Send Message</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-slate-300 text-center rounded-lg p-10 my-10">
+                <h1 class="text-3xl font-bold my-5">Social Media</h1>
+                <div class="flex justify-center gap-10">
+                    <img class="hover:cursor-pointer" src="pakhi.png" alt="">
+                    <img class="hover:cursor-pointer" src="bilai.png" alt="">
+                    <img class="hover:cursor-pointer" src="camera.png" alt="">
+                    <img class="hover:cursor-pointer" src="mukhboi.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- section 6 ends here -->
+    </main>
+    <!-- footer section starts here -->
+    <footer class="footer p-10 bg-black text-slate-300">
+        <aside class="mx-auto lg:block">
+          <h1 class="text-3xl font-bold mx-auto lg:-mt-1 my-5">Get in touch</h1>
+          <p class="text-center lg:text-left mb-5">Our main goal is best services and premium <br> quality product give to our customers.</p>
+          <div class="flex gap-3 mx-auto items-center">
+            <img src="mail.png" alt="">
+            hockeys@support.com
+          </div>
+          <div class="flex gap-3 mx-auto items-center">
+            <img src="call.png" alt="">
+            (+62) 123-321-543
+          </div>
+        </aside> 
+        <div class="flex gap-20 mx-auto">
+            <nav class=" text-center lg:text-left">
+                <header class="footer-title">Company</header> 
+                <div class="flex gap-3 flex-col">
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Leadership</a>
+                    <a class="link link-hover">Careers</a>
+                    <a class="link link-hover">News & Article</a>
+                    <a class="link link-hover">Legal Notice</a>
+                </div>
+              </nav> 
+              <nav class="text-center lg:text-left">
+                <header class="footer-title">Support</header> 
+                <div class="flex gap-3 flex-col">
+                    <a class="link link-hover">Help Center</a>
+                    <a class="link link-hover">FAQ</a>
+                    <a class="link link-hover">Ticket Support</a>
+                    <a class="link link-hover">Contact Us</a>
+                </div>
+              </nav> 
+        </div>
+        <nav class="mx-auto">
+          <header class="footer-title mx-auto lg:mx-0">Services</header> 
+          <a class="link mx-auto link-hover lg:mx-0">Academy </a>
+          <a class="link mx-auto link-hover lg:mx-0">Group Lesson</a>
+          <a class="link mx-auto link-hover lg:mx-0">Private Lesson</a>
+          <a class="link mx-auto link-hover lg:mx-0">Hockeys for kids</a>
+          <a class="link mx-auto link-hover lg:mx-0">Hockeys for Adult</a>
+        </nav>
+      </footer>
+    <!-- footer section ends here -->
 </body>
 </html>
